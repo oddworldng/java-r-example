@@ -13,7 +13,7 @@ public class RCall {
 		// Add Rscript.exe to your Path variable.. R\R-3.5.1\bin\x64\Rscript.exe (in Windows)
 		String environments = "Rscript";
 
-		System.out.println("Calling to R Script ...");
+		System.out.println("Calling to R Script ("+ dataDir +") ...");
  
 		try {
 			if (args.length == 0) {

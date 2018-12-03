@@ -7,9 +7,9 @@ public class RCall {
 		
 		Process theProcess = null;
 		BufferedReader inStream = null;
-		// Path of our R Script path
+		// Path to your R Script
 		String dataDir = "helloRWorld.R";
-		// Path of Rscript software
+		// Path to Rscript executable
 		// Add Rscript.exe to your Path variable.. R\R-3.5.1\bin\x64\Rscript.exe (in Windows)
 		String environments = "Rscript";
 

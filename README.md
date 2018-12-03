@@ -41,4 +41,4 @@ Calling to R Script ...
 ```
 
 ## Author
-* **Andrés Nacimiento García**, computer engineer at [University of La Laguna](https://ull.es/). <andresnacimiento@gmail.com>
+* **Andrés Nacimiento García**, computer engineer at [University of La Laguna](https://ull.es/). <andresnacimiento[NOSPAM]gmail[DOT]com>

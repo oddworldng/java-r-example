@@ -6,7 +6,7 @@ Example of calling an R script from Java code without using JRI library (using t
 
 ## Rscript config
 
-Add Rscript.exe to your Path variable: [...]\R\R-3.5.1\bin\x64\Rscript.exe (Windows)
+Add `Rscript.exe` to your Path variable: [...]\R\R-3.5.1\bin\x64\Rscript.exe (Windows)
 
 ## How to compile
 

@@ -29,14 +29,14 @@ java RCall input output
 ## Output
 
 ```
-Calling to R Script ...
+Calling to R Script (helloRWorld.R) ...
 [1] "Hello R World"
 ```
 
 ## Output (with arguments)
 
 ```
-Calling to R Script ...
+Calling to R Script (helloRWorld.R) ...
 [1] "[input," "output]"
 ```
 

@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Arrays;
 
 public class RCall {
 
@@ -15,7 +16,11 @@ public class RCall {
 		System.out.println("Calling to R Script ...");
  
 		try {
-			theProcess = Runtime.getRuntime().exec(String.format("%s %s", environments, dataDir));
+			if (args.length == 0) {
+				theProcess = Runtime.getRuntime().exec(String.format("%s %s", environments, dataDir));
+			} else {
+				theProcess = Runtime.getRuntime().exec(String.format("%s %s %s", environments + " --vanilla", dataDir, Arrays.toString(args)));
+			}
 		} catch(IOException e) {
 			System.err.println("Error in exec() method");
 			e.printStackTrace();

@@ -20,11 +20,24 @@ javac RCall.java
 java RCall
 ```
 
+## How to run (with arguments)
+
+```
+java RCall input output
+```
+
 ## Output
 
 ```
 Calling to R Script ...
 [1] "Hello R World"
+```
+
+## Output (with arguments)
+
+```
+Calling to R Script ...
+[1] "[input," "output]"
 ```
 
 ## Author

@@ -47,4 +47,4 @@ This code has been tested using:
 * Java: 1.8.0_191
 
 ## Author
-* **Andrés Nacimiento García**, computer engineer at [University of La Laguna](https://ull.es/). <andresnacimiento[NOSPAM]gmail[DOT]com>
+* **Andrés Nacimiento García**, computer engineer at [University of La Laguna](https://ull.es/). <andresnacimiento at gmail.com>
